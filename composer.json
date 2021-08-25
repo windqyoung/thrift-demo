@@ -1,0 +1,11 @@
+{
+    "require": {
+        "apache/thrift": "^0.14.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Api\\": "gen-php/Api",
+            "DemoHandler\\": "src"
+        }
+    }
+}
